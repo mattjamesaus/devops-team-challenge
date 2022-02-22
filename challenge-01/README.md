@@ -6,7 +6,7 @@ dmz-00, dmz-01, app-00, app-01, db-00,db-01
 
 - The DMZ subnets should be public and the rest should be internal subnets, all subnets need egress access to the internet. 
 - VPC should include necessary IGs, Route Tables, NATs etc.
-- 
+
 2) Create a module that peers the two VPCS using terraform
 Module should expose necessary routing tables etc, vpc peering ids etc.
 
